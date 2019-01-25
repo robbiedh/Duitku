@@ -1,22 +1,7 @@
 <?php 
 namespace robbiedh\Duitku; 
 class DuitkuController {
-  
-  
-   
-    public function __construct()
-    {
-         $merchantCode=env('merchantKey');
-        $merchantKey=env('merchantCode');
-        //  $this->merchantKey=env('merchantKey');
-        //  $this->merchantCode=env('merchantCode');
-        
-    }
-    public static function email($email) { 
-        
-       
-       
-    }
+
     public static function Request($itemDetails,$user_info, $paymentMethod,$merchantOrderId,$additionalParam,$merchantUserInfo){
     $amont=array();
     foreach($itemDetails as $key => $data){

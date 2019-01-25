@@ -13,7 +13,7 @@ class DuitkuServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-           $this->app->make('robbiedh\Duitku\DuitkuController');
+           
     }
 
     /**
@@ -23,6 +23,6 @@ class DuitkuServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->make('robbiedh\Duitku\DuitkuController');
     }
 }

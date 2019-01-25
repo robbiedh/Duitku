@@ -7,5 +7,6 @@
             "email": "robby.dh596@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }

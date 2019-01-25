@@ -1,0 +1,11 @@
+{
+    "name": "robbiedh/duitku",
+    "description": "package untuk payment gateway Duitku",
+    "authors": [
+        {
+            "name": "robby dh",
+            "email": "robby.dh596@gmail.com"
+        }
+    ],
+    "require": {}
+}

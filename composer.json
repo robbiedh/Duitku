@@ -1,6 +1,8 @@
 {
     "name": "robbiedh/duitku",
     "description": "package untuk payment gateway Duitku",
+    "type":"library",
+    "license":"MIT",
     "authors": [
         {
             "name": "robby dh",
@@ -8,5 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "robbiedh\\duitku\\":"src/"
+        }
+    }
 }
